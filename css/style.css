@@ -119,7 +119,7 @@ body {
 .shop {
   width: 65%;
   float: right;
-
+  
 }
 
 .aside-format {
@@ -128,7 +128,8 @@ body {
   color: #FFD500;
   margin: 35px 0px;
   text-decoration: none;
-  /* text-align: center; */
+  user-select: none;
+  
 }
 
 .sistemasop input {
@@ -146,36 +147,39 @@ body {
 }
 
 .aside-format a {
-  color: rgb(182, 182, 182);
+  color: white;
   text-decoration: none;
+  font-size:18px;
 }
 
 .aside-format li {
   margin: 7px 0;
-  color: rgb(170, 170, 170);
+  color: white;;
   list-style: none;
+  font-size:18px;
 }
 
 .filters input {
   margin: 0 5px;
-  color: rgb(170, 170, 170);
+  color: white;
 }
 
 .aside-format a:hover {
-  color: white;
+  color:white;
+
 }
 
 aside {
   position: relative;
   background-color: rgb(24, 24, 24);
   width: 300px;
-  height: 600px;
+  height: 670px;
   float: left;
   display: inline-block;
   text-align: center;
   box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.788);
   border-radius: 8px;
-  margin: 10px;
+  margin: 0 0 0 20px ;
 }
 
 .filters li {
@@ -226,7 +230,7 @@ aside {
 
 .multimedia:hover {
 
-
+  
   transform: scale(1.1);
 }
 
@@ -236,6 +240,7 @@ aside {
   list-style: none;
   font-weight: bolder;
   cursor: default;
+  user-select: none;
 }
 
 .price {
@@ -344,6 +349,7 @@ header li a {
   font-size: 12px;
   text-align: right;
   color: #FFD500;
+  user-select: none;
 }
 
 .btn-down-content {
@@ -460,6 +466,8 @@ header li a {
   margin: 30px;
   padding: 8px;
   background-color: rgb(0, 0, 0);
+  cursor: default;
+  user-select: none;
 }
 
 .logo-prefooter {

@@ -1,0 +1,360 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
+html,
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  height: 100%;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+  list-style: none;
+  background: black;
+
+}
+
+.logo {
+  float: left;
+
+}
+
+.logo:hover {
+  height: 30px;
+  text-shadow: 1px 1px 40px rgb(223, 213, 74);
+  ;
+  width: 163px;
+  transition: 0.1s;
+}
+
+.ataoconalambre {
+  
+  margin: 5%;
+  text-decoration: none;
+}
+
+.ataoconalambre-inter {
+  
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  margin: auto auto 20px auto;
+
+}
+
+.ataoconalambre-inter:hover {
+  text-shadow: 1px 1px 40px rgb(223, 213, 74);
+  transition: 0.3s;
+}
+
+/*Menu Smartphone*/
+.hamburguesa {
+  display: none !important;
+  
+}
+
+.hamburguesa:hover .hamburguesa-content {
+  display: block;
+  
+}
+
+.hamburguesa-content {
+  display: none;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.698);
+  border-radius: 2px;
+
+}
+
+.img-so {
+  height: 20px;
+}
+
+.hamburguesa-content a {
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.hamburguesa-content :hover {
+  color: rgb(223, 213, 74);
+  border-radius: 2px;
+}
+
+.ul-menu-hamburguesa {
+  flex-direction: column;
+  display: flex;
+  list-style: none;
+  margin: 1em;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  list-style-type: none;
+  border-radius: 2px;
+}
+
+.logo-hamb {
+  
+  transition: transform .3s, filter 1.5s ease-in-out;
+
+}
+
+.logo-hamb:hover {
+  transform: scale(1.5);
+  
+}
+
+/*Navbar*/
+.ul-menu {
+  
+  height: 50px;
+  padding: 0px;
+  line-height: 35px;
+  position: absolute;
+  font-size: 18px;
+  width: 100%;
+  top: 0;
+  background-color: rgb(24, 24, 24);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.212);
+  overflow: hidden;
+  list-style-type: none;
+
+}
+
+.ul-menu :hover {
+  color: #FFD500;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: inline-block;
+  color: rgb(245, 245, 245);
+  font-weight: bolder;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+
+.prefooter {
+  text-align: center;
+  margin: 30px;
+  padding: 8px;
+  background-color: rgb(0, 0, 0);
+}
+
+.logo-prefooter {
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.253);
+  width: 19%;
+  margin: 30px 10px 30px 10px;
+  border-radius: 5px;
+  transition: transform .3s, filter 1.5s ease-in-out;
+
+}
+
+.logo-prefooter:hover {
+  
+  transform: scale(1.1);
+}
+
+multimedia-marcafooter,
+p {
+  font-size: 16px;
+  margin: 10px;
+  font-weight: bolder;
+
+}
+
+multimedia-marcafooter:hover {
+
+  margin: 10px;
+  font-weight: bolder;
+
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+
+  bottom: 0px;
+
+  text-align: center;
+
+}
+
+@media (max-width:950px) {
+
+  .hamburguesa {
+    display: inline !important;
+    z-index: 1;
+    
+  }
+
+  .ul-menu {
+    display: none !important;
+    
+  }
+
+
+  /* CLASE CONTAINER LE AUMENTE 100% ASI CUBRA 
+  TODO EL ANCHO DE LA PAGINA A PARTIR DE 800 */
+  .container {
+    width: 100%;
+  }
+
+  /* ----------------------- */
+  .shop {
+    width: 95%;
+   
+  }
+
+  aside {
+    width: 0%;
+display: none;
+  }
+
+  .logo-prefooter {
+    width: 80%;
+    margin: 2%;
+  }
+}
+  
+  .general {
+    background: black;
+    margin: auto;
+    margin-top: 40px;
+    width: 1020px;
+    height: 1040px;
+}
+
+.titulo {
+  background:black;
+  margin: auto;
+  margin-top: 60px;
+  width: 870px;
+  height: 120px;
+  color: white;
+}
+
+.titulo .contacto{
+  font-weight: normal;
+  font-size: 34px;
+}
+    
+.contactanos {
+
+  border: 1px solid gray;
+  margin: auto;
+  background: rgb(31, 30, 30);
+  margin-top: 70px;
+  width: 870px;
+  height: 440px;
+  color:white;
+
+}
+
+p {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+  
+}
+
+.ul-info li{
+  margin-left: 10px;
+  font-size: 17px;
+  float: left;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.contenedor {
+  width: 870px;
+  color:white;
+}
+
+.contenedor .form .form-header .form-title {
+  font-family: sans-serif;
+  
+}
+
+.contenedor .form .form-header .form-title  {
+  font-size: 34px;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: white; 
+}
+
+.contenedor .form{
+  margin-left: 47px;
+  background: black(31, 30, 30);
+  width: 550px;
+  height: 470px;
+  padding: 5px 35px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+  border-color: black
+  
+  
+}
+
+
+.contenedor .form .form-label {
+  display: block;
+  color:white;
+  font-size: 17px;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.contenedor .form .form-input, .form-textarea {
+  background:rgb(31, 30, 30);
+  border: 1px solid black;
+  outline: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 1px;
+  font-size: 14px;
+  color: black;
+  font-family: sans-serif;
+}
+
+.contenedor .form .form-textarea {
+  resize: vertical;
+  height: 100px;
+  max-height: 350px;
+}
+
+.contenedor .form .btn-submit {
+  width: 20%;
+  font-family: sans-serif;
+  outline: none;
+  background: rgb(212, 209, 209);
+  font-size: 15px;
+  color: black;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: all;
+  margin: auto; display: block;
+  border: 1px solid rgb(126, 119, 119);
+} 
+
+

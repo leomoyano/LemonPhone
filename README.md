@@ -29,6 +29,6 @@
 <br>
 <p align="center">
 <img src="https://lemonphone.netlify.com/img/GifMobile.gif" width="300px">
-  
+  <img src="https://lemonphone.netlify.com/img/wireandqr.png" width="300px">
 </p>
 

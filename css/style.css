@@ -1,0 +1,668 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  height: 100%;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+  list-style: none;
+  background: black;
+
+}
+
+.logo {
+  float: left;
+
+}
+
+.logo:hover {
+  height: 30px;
+  text-shadow: 1px 1px 40px rgb(223, 213, 74);
+  ;
+  width: 163px;
+  transition: 0.1s;
+}
+
+.banner {
+ 
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+  float: right;
+  width: 100%;
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.747)), url(https://www.eaprules.com/assets/img/yelow-star.png) center center fixed;
+}
+
+.ataoconalambre {
+  
+  margin: 5%;
+  text-decoration: none;
+}
+
+.ataoconalambre-inter {
+  
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  margin: auto auto 20px auto;
+
+}
+
+.ataoconalambre-inter:hover {
+  text-shadow: 1px 1px 40px rgb(223, 213, 74);
+  transition: 0.3s;
+}
+
+.banner-marca {
+  text-align: center;
+  margin: 30px;
+  padding: 8px;
+
+}
+
+.marca {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.253);
+  width: 10%;
+  margin: 30px 30px auto auto;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+/*----Articulos-----*/
+.logo-div {
+  display: inline;
+  background-color: white;
+  margin: 20px 20px auto auto;
+
+}
+
+.articulo {
+  display: inline-block;
+  font-size: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.253);
+  width: 10em;
+  margin: 30px 30px auto auto;
+  padding: 8px;
+  border: 1px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.articulo:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.829);
+  transition: 0.5s;
+}
+
+/* ESTO SERIA LO NUEVO */
+.container {
+  display: inline-block;
+
+  width: 100%;
+
+  background-repeat: repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.925)), url(https://www.eaprules.com/assets/img/yelow-star.png) center center fixed;
+
+}
+
+.shop {
+  width: 65%;
+  float: right;
+
+}
+
+.aside-format {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #FFD500;
+  margin: 35px 0px;
+  text-decoration: none;
+  /* text-align: center; */
+}
+
+.sistemasop input {
+  display: inline-block;
+  color: white;
+}
+
+.memoria-ram input {
+  display: inline-block;
+}
+
+.aside-format h3 {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aside-format a {
+  color: rgb(182, 182, 182);
+  text-decoration: none;
+}
+
+.aside-format li {
+  margin: 7px 0;
+  color: rgb(170, 170, 170);
+  list-style: none;
+}
+
+.filters input {
+  margin: 0 5px;
+  color: rgb(170, 170, 170);
+}
+
+.aside-format a:hover {
+  color: white;
+}
+
+aside {
+  position: relative;
+  background-color: rgb(24, 24, 24);
+  width: 300px;
+  height: 600px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.788);
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.filters li {
+  margin: 6px;
+}
+
+.separator-aside {
+  background-color: rgb(59, 59, 59);
+  height: 2px;
+  width: 80%;
+  margin: 10px 0px;
+  display: inline-block;
+}
+
+.separator-productos {
+  background-color: rgb(209, 209, 209);
+  height: 2px;
+  width: 100%;
+  display: inline-block;
+}
+
+/* FIN DE LO NUEVO */
+/* Fix AtaoConAlambre */
+.control {
+  width: 25em;
+  margin: 20px 10px 20px 0px;
+}
+
+.titulo,
+.numnoticias {
+  text-align: center;
+  color: #FFD500;
+  cursor: default;
+}
+
+.modelo-texto {
+  cursor: default;
+}
+
+.multimedia {
+  width: 90%;
+  margin: 10px auto 5px auto;
+  cursor: pointer;
+  transition: transform .3s, filter 1.5s ease-in-out;
+  
+
+}
+
+.multimedia:hover {
+
+
+  transform: scale(1.1);
+}
+
+.info-lite ul {
+  font-size: 15px;
+  text-align: left;
+  list-style: none;
+  font-weight: bolder;
+  cursor: default;
+}
+
+.price {
+  font-weight: bolder;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  cursor: default;
+}
+
+/*Menu Smartphone*/
+.hamburguesa {
+  display: none !important;
+  
+}
+
+.hamburguesa:hover .hamburguesa-content {
+  display: block;
+  
+}
+
+.hamburguesa-content {
+  display: none;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.698);
+  border-radius: 2px;
+
+}
+
+.img-so {
+  height: 20px;
+}
+
+.hamburguesa-content a {
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.hamburguesa-content :hover {
+  color: rgb(223, 213, 74);
+  border-radius: 2px;
+}
+
+.ul-menu-hamburguesa {
+  flex-direction: column;
+  display: flex;
+  list-style: none;
+  margin: 1em;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  list-style-type: none;
+  border-radius: 2px;
+}
+
+.logo-hamb {
+  
+  transition: transform .3s, filter 1.5s ease-in-out;
+
+}
+
+.logo-hamb:hover {
+  transform: scale(1.5);
+  
+}
+
+/*Navbar*/
+.ul-menu {
+  
+  height: 50px;
+  padding: 0px;
+  line-height: 35px;
+  position: absolute;
+  font-size: 18px;
+  width: 100%;
+  top: 0;
+  background-color: rgb(24, 24, 24);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.212);
+  overflow: hidden;
+  list-style-type: none;
+
+}
+
+.ul-menu :hover {
+  color: #FFD500;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: inline-block;
+  color: rgb(245, 245, 245);
+  font-weight: bolder;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+/*Botones*/
+.fontawesome {
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+}
+
+.fontawesome-stars ul {
+  font-size: 12px;
+  text-align: right;
+  color: #5c5c5c;
+}
+
+.btn-down-content {
+  display: none;
+  position: fixed;
+  background-color: rgb(223, 213, 74);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.698);
+  border-radius: 2px;
+}
+
+.btn-down-content a label {
+  color: rgb(223, 213, 74);
+  padding: 8px 30px;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+}
+
+.btn-down-content :hover {
+  border-radius: 2px;
+}
+
+.btn-down:hover .btn-down-content {
+  display: block;
+}
+
+.btn-pay {
+  font-weight: bolder;
+  background-color: #FFD500;
+
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  padding: 8px 20px;
+  margin: 10px auto 10px auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 4px 8px 0 #b9b8b2;
+  transition: transform .3s, filter 1.5s ease-in-out;
+}
+
+.btn-pay:hover {
+
+  transform: scale(1.1);
+  
+}
+
+/*readmore*/
+
+.panel-wrapper {
+  position: relative;
+
+}
+
+.btn {
+  font-weight: bolder;
+  background-color: #FFD500;
+  ;
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 16px;
+  left: 33%;
+  padding: 1em;
+  text-decoration: none;
+  margin: -1%;
+  border: 10px;
+}
+
+.show,
+.hide {
+  position: absolute;
+  bottom: -2.5em;
+  z-index: 100;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show:target {
+  display: none;
+}
+
+.show:target~.hide {
+  display: block;
+}
+
+.show:target~.panel {
+  max-height: 4000px;
+}
+
+.show:target~.fade {
+  margin-top: 0;
+}
+
+.panel {
+  position: relative;
+  margin: 2em auto;
+  width: 100%;
+  max-height: 1000px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+}
+
+.fade {
+  background: linear-gradient(to bottom, rgba(bg-color, 0) 0%, rgba(bg-color, 1) 75%);
+  height: 100px;
+  margin-top: -100px;
+  position: relative;
+}
+
+
+.prefooter {
+  text-align: center;
+  margin: 30px;
+  padding: 8px;
+  background-color: rgb(0, 0, 0);
+}
+
+.logo-prefooter {
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.253);
+  width: 19%;
+  margin: 30px 10px 30px 10px;
+  border-radius: 5px;
+  transition: transform .3s, filter 1.5s ease-in-out;
+
+}
+
+.logo-prefooter:hover {
+  
+  transform: scale(1.1);
+}
+
+multimedia-marcafooter,
+p {
+  font-size: 16px;
+  margin: 10px;
+  font-weight: bolder;
+
+}
+
+multimedia-marcafooter:hover {
+
+  margin: 10px;
+  font-weight: bolder;
+
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+
+  bottom: 0px;
+
+  text-align: center;
+
+}
+
+/*
+
+@media (max-width:1250px) {
+
+  .hamburguesa {
+    display: inline !important;
+  }
+
+  .ul-menu {
+    display: none !important;
+  }
+
+  .btn-down-content a {
+    color: white;
+    padding: 6px 55px;
+    text-decoration: none;
+  }
+   CLASE CONTAINER LE AUMENTE 100% ASI CUBRA 
+  TODO EL ANCHO DE LA PAGINA A PARTIR DE 800 
+  .container {
+    width: 100%;
+  }
+   /* ----------------------- 
+   .shop {
+    width: 49em;
+    float: right;
+  }
+  aside {
+    position: relative;
+    background:rgb(43, 43, 43);
+    width: 20em;
+    
+    float: left;
+    display: inline-block;
+    text-align: center;
+
+  }
+  .marca {
+  
+    display: inline-block;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.253);
+    width: 5em;
+    margin: 20px 10px 20px auto;
+    
+  }
+  .articulo,
+  .formulario {
+    width: 35%;
+    margin: 10px 10px;
+  }
+  .info-lite{
+    font-size: 15px;
+  }
+  .btn-down:hover .btn-down-content :nth-child(2n+1){
+    display: block;
+    font-size: 0px;
+    display: none;
+  }
+  .logo-hamb {
+    font-size: 50px;
+    text-decoration: none;
+  }
+
+  .logo-hamb:hover {
+    font-size: 52px;
+    transition: 0.4s;
+    text-shadow: 1px 1px 22px rgb(223, 213, 74);
+  }
+
+  .multimedia {
+    width: 90%;
+    margin: 10px auto 10px auto;
+    transition: 0.2s;
+  }
+  
+
+}
+*/
+@media (max-width:950px) {
+
+  .hamburguesa {
+    display: inline !important;
+    z-index: 1;
+    
+  }
+
+  .ul-menu {
+    display: none !important;
+    
+  }
+
+  .btn-down-content a {
+    color: white;
+    padding: 6px 55px;
+    text-decoration: none;
+    
+  }
+
+  /* CLASE CONTAINER LE AUMENTE 100% ASI CUBRA 
+  TODO EL ANCHO DE LA PAGINA A PARTIR DE 800 */
+  .container {
+    width: 100%;
+  }
+
+  /* ----------------------- */
+  .shop {
+    width: 95%;
+   
+  }
+
+  aside {
+    width: 0%;
+display: none;
+  }
+
+  .marca {
+
+    display: inline-block;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.253);
+    width: 8em;
+    margin: 20px 10px 20px auto;
+
+  }
+
+  .articulo {
+    width: 40%;
+    margin: 5px 5px;
+  }
+  .articulo, h3 {
+    font-size: 20px;
+  }
+
+
+  .info-lite {
+    font-size: 15px;
+  }
+
+ 
+  .multimedia {
+    
+    margin: 10px auto 10px auto;
+    transition: 0.2s;
+  }
+
+  .logo-prefooter {
+    width: 80%;
+    margin: 2%;
+  }
+}

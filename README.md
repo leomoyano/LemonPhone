@@ -1,6 +1,5 @@
 # LemonPhone Store
 
----------------------------
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e20c6ee4-e771-47ad-8006-5d8efa0761f0/deploy-status)](https://app.netlify.com/sites/lemonphone/deploys)
 
 

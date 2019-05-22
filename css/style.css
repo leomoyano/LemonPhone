@@ -294,13 +294,14 @@ aside {
   display: block;
   list-style: none;
   margin: 1em;
+  
   padding: 0px;
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0);
   overflow: hidden;
   list-style-type: none;
-  border-radius: 2px;
+  border-radius: 10px;
   z-index: 10;
 }
 

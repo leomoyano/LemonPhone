@@ -253,6 +253,7 @@ aside {
 }
 
 /*Menu Smartphone*/
+
 .hamburguesa {
   display: none !important;
   
@@ -534,6 +535,16 @@ footer {
   TODO EL ANCHO DE LA PAGINA A PARTIR DE 800 */
   .container {
     width: 100%;
+  }
+  .logo-hamb {
+    font-size: 50px;
+    text-decoration: none;
+  }
+
+  .logo-hamb:hover {
+    font-size: 52px;
+    transition: 0.4s;
+    text-shadow: 1px 1px 22px rgb(223, 213, 74);
   }
 
   /* ----------------------- */

@@ -403,17 +403,17 @@ header li a {
   border-radius: 2px;
   color: rgb(0, 0, 0);
   font-size: 16px;
-  left: 36%;
+  left: 42%;
   padding: 1em;
   text-decoration: none;
-  margin: -5%;
+  margin: -6%;
   border: 10px;
 }
 
 .show,
 .hide {
   position: absolute;
-  bottom: -2.5em;
+  bottom: -1%;
   z-index: 1;
   text-align: center;
 }
@@ -431,7 +431,7 @@ header li a {
 }
 
 .show:target~.panel {
-  max-height: 4000px;
+  max-height: 7000px;
 }
 
 .show:target~.fade {
@@ -578,7 +578,21 @@ display: none;
     margin: 10px auto 10px auto;
     transition: 0.2s;
   }
-
+  .btn {
+    
+    left: 51%;
+    padding: 1em;
+    text-decoration: none;
+    margin: -12%;
+    border: 10px;
+  }
+  .show,
+.hide {
+  position: absolute;
+  bottom: 1%;
+  z-index: 1;
+  text-align: center;
+}
   .logo-prefooter {
     width: 80%;
     margin: 2%;

@@ -86,20 +86,6 @@
 	60%{ opacity:0; -webkit-transform:translateY(-560px); }
 	/*FIN FOTO 3*/
 	
-	/*FOTO 4*/
-	61%{ opacity:0; -webkit-transform:translateY(-600px); }
-	62%{ opacity:1; -webkit-transform:translateY(-600px); }
-	75%{ opacity:1; -webkit-transform:translateY(-600px); }
-	79%{ opacity:1; -webkit-transform:translateY(-600px); }
-	80%{ opacity:0; -webkit-transform:translateY(-600px); }
-	/*FIN FOTO 4*/
-	
-	/*FOTO 5*/
-	81%{ opacity:0; -webkit-transform:translateY(-800px); }
-	82%{ opacity:1; -webkit-transform:translateY(-800px); }
-	95%{ opacity:1; -webkit-transform:translateY(-800px); }
-	99%{ opacity:1; -webkit-transform:translateY(-800px); }
-	100%{ opacity:0; -webkit-transform:translateY(-800px); }
 }
 @-moz-keyframes slide{
 	/*FOTO 1*/
@@ -236,4 +222,30 @@
 }
 
 	
+@keyframes slide{
+	/*FOTO 1*/
+	
+	15%{ opacity:1; transform:translateY(0px); }
+	19%{ opacity:1; transform:translateY(0px); }
+	20%{ opacity:0; transform:translateY(0px); }
+	/*FIN FOTO 1*/
+	
+	/*FOTO 2*/
+	21%{ opacity:0; transform:translateY(-200px); }
+	22%{ opacity:1; transform:translateY(-200px); }
+	35%{ opacity:1; transform:translateY(-200px); }
+	39%{ opacity:1; transform:translateY(-200px); }
+	40%{ opacity:0; transform:translateY(-200px); }
+	/*FIN FOTO 2*/
+	
+	/*FOTO 3*/
+	41%{ opacity:0; transform:translateY(-400px); }
+	42%{ opacity:1; transform:translateY(-400px60px); }
+	55%{ opacity:1; transform:translateY(-400px); }
+	59%{ opacity:1; transform:translateY(-400px); }
+	60%{ opacity:0; transform:translateY(-400px); }
+	/*FIN FOTO 3*/
+	
+
+}
 }
